@@ -1,0 +1,48 @@
+
+.companyContainer {
+    border: solid red;
+    border-width: 0.2px;
+    text-align: center;
+    display:flex;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+  }
+  .company {
+    border-radius: 22px;
+    font-size:22px;
+    border: solid grey;
+    margin: 20px;
+    /* width: 100%; */
+    padding: 12px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    display: flex
+    ;
+  }
+  
+  #com_a:hover {
+    color: white;
+    background-color: lightblue;
+  }
+  #com_b:hover {
+    color: peru;
+    background-color: navy;
+  }
+  #com_c:hover {
+    background-color: green;
+  }
+  #com_d:hover {
+    color: white;
+    background-color: purple;
+  }
+  #com_e:hover {
+    background-color: gray;
+  }
+  .bizPic {
+    margin: 1em;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: solid white;
+  }
